@@ -1,0 +1,95 @@
+body{
+    background-color: whitesmoke;
+}
+/* Slide container */
+.slideshow-container {
+    margin-top: 5%;
+align-content: center;
+}
+.slideshow-container img{
+    width: 40%;
+    height: 40%;
+    box-shadow: 10px 10px 5px grey;
+    margin-left: 30%;
+    border-radius: 10%;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+display : none ;
+}
+/* Fading animation */
+.fade {
+-webkit-animation-name : fade ;
+-webkit-animation-duration : 1.5s ;
+animation-name : fade ;
+animation-duration : 1.5s ;
+}
+@-webkit-keyframes fade {
+from { opacity: .4 }
+to { opacity: 1 }
+}
+@keyframes fade {
+from { opacity: .4 }
+to { opacity: 1 }
+}
+.responseform{
+    text-align :center;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 60px;
+}
+.Introduction{
+ font-size: 30px;
+ font-family: 'Courier New', Courier, monospace;
+ margin-top: 5%;
+ margin-left:5%;
+ font-style: italic;
+ font-weight: bold;
+
+}
+#welcome{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left:2%;
+}
+.message{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.message:hover{
+    box-shadow: 15px 15px 15px grey;
+}
+#btn{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    box-shadow: 5px 5px 5px grey;
+    color:black;
+}
+#btn:hover{
+    box-shadow: 15px 15px 15px grey;
+}
+#decscription{
+    font-size : 20px;
+}
+#inputfield{
+    border-radius: 5px;
+    height: 50%;
+    width: 30%;
+    font-size: 20px;   
+}
+.Errormessage{
+    color:red;
+    font-size: 20px;
+    font-weight: bold  
+}
+.success{
+    color:green;
+    font-size: 20px;
+    font-weight: bold  
+}

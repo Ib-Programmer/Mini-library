@@ -1,0 +1,51 @@
+
+.footer{
+    background-color: black;
+    margin-top: 50%;
+    line-height: 100px;
+    padding:100px;
+    text-align: center;
+}
+#text{
+ color:white;
+ font-size: 30px;
+ font-weight: bold;
+
+}
+.footer #fa_id{
+    width: 9%;
+    height: 9%;
+    border-radius:70%;
+}
+.footer #wa_id{
+    width: 10%;
+    height: 10%;
+    border-radius: 73%;
+}
+.footer #email_id{
+    width: 10%;
+    height: 10%;
+    border-radius:70%;
+}
+.Services{
+    margin-top: 7%;
+    text-align: center;
+
+}
+.Services .ul{
+    text-align: center;
+}
+.Services .ul .li{
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+ .copyright {
+    color:white;
+    font-size: 30px;
+}
+#companyname{
+    font-style: italic;
+}
+

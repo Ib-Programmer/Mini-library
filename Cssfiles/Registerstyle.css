@@ -1,0 +1,92 @@
+body{
+    background-color: whitesmoke
+}
+.register{
+    padding: 30px;
+    line-height: 300%;
+    box-shadow: 10px 10px 10px 10px grey;
+    margin-right: 30%;
+   margin-left:25%;
+   text-align: center;
+}
+#adminregister{
+    margin-top:5%;
+   
+   }
+#schoolregister{
+    margin-top:20%;
+    
+}
+label{
+    font-size: 23px;
+    font-weight: bold;
+}
+.input_field{
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+    height: 200%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnregister{
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 33%;
+    height: 60%;
+    box-shadow: 3px 3px 3px 3px grey;
+    cursor: pointer;
+    margin-right: 80%;
+}
+.btnregister:hover{
+    box-shadow: 5px 5px 5px 5px grey; 
+}
+.Errormessage{
+    margin-left: 10%;
+    color:red;
+    font-size: 20px;
+    font-weight: bold  
+}
+.message{
+    margin-left: 10%;
+    color:green;
+    font-size: 20px;
+    font-weight: bold  
+}
+
+#btn_back{
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 110%;
+    margin-top: 3%;
+    box-shadow: 3px 3px 3px 3px grey;
+    color:black;
+}
+#btn_back a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+#btn_back:hover{
+    box-shadow: 5px 5px 5px 5px grey;
+}
+select {
+    background-color: transparent;
+    appearance: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: inherit;
+  }
+  option{
+    font-size: 21px;
+    font-weight: bold;
+  }

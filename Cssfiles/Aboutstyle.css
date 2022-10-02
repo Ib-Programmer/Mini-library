@@ -1,0 +1,25 @@
+body{
+    background-color: whitesmoke;
+}
+.contents{
+    margin-top: 7%;
+    text-align: center;
+}
+.Introduction{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 35px;
+   }
+#devpic{
+  width:20%;
+  height: 300px;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px grey;
+}
+h1 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#link{
+    text-decoration: none;
+}
